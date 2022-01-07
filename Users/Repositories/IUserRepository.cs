@@ -1,4 +1,6 @@
-﻿namespace AuthApi.Repositories
+﻿using AuthApi.Users;
+
+namespace AuthApi.Repositories
 {
     public interface IUserRepository
     {

@@ -23,9 +23,9 @@ namespace AuthApi.Token
                 })
             };
 
-            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var token = tokenHandler.CreateEncodedJwt(tokenDescriptor);
 
-            return token.ToString();
+            return token;
         }
     }
 }

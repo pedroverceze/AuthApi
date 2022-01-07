@@ -31,9 +31,9 @@ namespace AuthApi.Controllers
                 return NotFound(new { Message = "Usuario não encontrado" });
             }
 
-            var token = _tokenService.GenerateToken(user);
+            var token = _tokenService.GenerateToken(userFound);
 
-            user.Password = String.Empty;
+            user.Password = string.Empty;
 
             return new
             {
