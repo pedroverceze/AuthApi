@@ -5,4 +5,4 @@ net6.0 WebApi with bearer and Token JWT
 
 2 Roles : Employee and Manager
 
-## Postman Colection at root folder
+## Postman Collection in solution folder
